@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#bac{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 238, 224);
+}
+#data{
+    
+    width: 100%;
+    height: 80%;
+    background-color: rgb(252, 249, 246);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#fac{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+}
+#foot{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(252, 249, 246);
+}
+#ima{
+    width: 33%;
+    height: 88%;
+}
+#tex{
+    width: 33%;
+    height: 88%;
+    padding: 30px 0px;
+}
+#u{
+    width: 100%;
+    height: 76%;
+    background-image: url(https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#l{
+    width: 100%;
+    height: 20%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxx{
+    width: 71px;
+    height: 71px;
+    background-position: center;
+    background-size: cover;
+}
+#box1{
+    background-image: url(https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80);
+}
+#box2{
+    background-image: url(https://images.unsplash.com/photo-1565625443865-2c41cdb647d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+}
+#box3{
+    background-image: url(https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80);
+}
+#box4{
+    background-image: url(https://images.unsplash.com/photo-1565374369705-acde12f3caa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1575&q=80);
+}
+#box5{
+    background-image: url(https://images.unsplash.com/photo-1560448204-603b3fc33ddc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80);
+}
+
+#tex h4{
+    margin-top: 14px;
+    font-size: 12px;
+    color: rgb(128, 126, 126);
+}
+
+#para{
+    margin-top: 14px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: rgb(160, 158, 158);
+}
+#tex i{
+    font-size: 15px;
+    color: cyan;
+}
+#review{
+    margin-top: 2px;
+    font-size: 10px;
+    color: rgb(128, 126, 126);
+    font-weight: 700;
+
+}
+#review span{
+    color: cyan;
+    font-size: 16px;
+    margin-right: 4px;
+}
+#sub{
+    margin-top: 9px;
+    font-size: 10px;
+    text-decoration: underline;
+    font-weight: 700;
+    color: rgb(128, 126, 126);
+}
+#tex h5{
+    margin-top: 24px;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color: rgb(37, 37, 37);
+}
+#dis{
+    font-size: 11px;
+    margin-bottom: 9px;
+    font-weight: 700;
+    color: rgb(128, 126, 126);
+}
+#dis i{
+
+    color: black;
+    font-size: 12px;
+}
+#tex button{
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 11px;
+}
+#b1{
+    margin-right: 7px;
+    border: none;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+#b2{
+    border: 1px solid rgb(71, 71, 71);
+    background-color: transparent;
+    color: rgb(85, 85, 85);
+}
+.fBox{
+    padding: 10px;
+    display: flex;
+    height: 100%;
+    width: 18%;
+    justify-content: space-between;
+}
+#fdata{
+    height: 90%;
+    width: 80%;
+}
+#fdata h4{
+    font-size: 14px;
+    color: rgb(128, 126, 126);
+}
+#fdata p{
+    font-size: 9px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: rgb(128, 126, 126);
+}
+
+@media(max-width:450px){
+    #data{
+        display: initial;
+    }
+    #ima{
+        width: 100%;
+        height: 50%;
+    }
+    .boxx{
+        width: 50px;
+        height: 50px;
+    }
+    #tex{
+        margin-left: 7px;
+        width: 100%;
+        height: 50%;
+    }
+    #tex h2{
+        font-size: 15px; 
+    }
+    #tex h4{
+        font-size: 12px;   
+    }
+    #tex p{
+        font-size: 9px;
+    }
+    #tex h5{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;   
+    }
+    #para{
+        margin-top: 5px;
+        margin-bottom: 5px;   
+    }
+    #fac{
+        height: 40%;
+        flex-direction: column;
+    }
+    .fBox{
+        flex-direction: column;
+        width: 100%;
+    }
+    #foot{
+        height: 10%;
+    }
+}
